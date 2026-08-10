@@ -17,7 +17,6 @@ from download import find_model
 from models import DiT_models
 import argparse
 
-
 def main(args):
     # Setup PyTorch:
     torch.manual_seed(args.seed)
